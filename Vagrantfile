@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.hostname = "maquinet-web-server-berkshelf"
+  config.vm.hostname = "cashmonitor-web-server-berkshelf"
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "Berkshelf-CentOS-6.3-x86_64-minimal"
@@ -80,7 +80,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
-        "recipe[maquinet-web-server::default]"
+        "recipe[cashmonitor-web-server::default]"
     ]
   end
 end

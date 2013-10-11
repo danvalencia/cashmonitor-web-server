@@ -1,4 +1,4 @@
-# maquinet-web-server cookbook
+# cashmonitor-web-server cookbook
 
 # Requirements
 
